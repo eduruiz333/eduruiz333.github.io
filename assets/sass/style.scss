@@ -12,10 +12,18 @@ html {
     box-sizing: border-box;
 
     body {
-        font-family: ubuntu;
+        font-family: ubuntu, Arial, Helvetica, Verdana;
         background-color: #1a1d21;
         color: #00ffff;
     }
 }
 
 
+/*
+span.feature-box.custom-feature-box:hover .custom-feature-box-icon{
+    color: red !important;
+}
+
+.custom-feature-box:hover .custom-feature-box-icon {
+    background: red;
+}*/
