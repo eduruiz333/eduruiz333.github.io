@@ -18,7 +18,69 @@ $greyDark: #617695;
 $greyLight: #c6d7e0;
 $white: #ffffff;
 
-// Font Types
+// TEXT-COLORS
+.color-cyan {
+    color: $cyan !important;
+}
+.color-red {
+    color: $red !important;
+}
+.color-green {
+    color: $green !important;
+}
+.color-yellow {
+    color: $yellow !important;
+}
+.color-orange {
+    color: $orange !important;
+}
+.color-black {
+    color: $black !important;
+}
+.color-greyDark {
+    color: $greyDark !important;
+}
+.color-greyLight {
+    color: $greyLight !important;
+}
+.color-white {
+    color: $white !important;
+}
+
+// BACKGROUND COLORS
+.bg-cyan {
+    background-color: $cyan !important;
+}
+.bg-red {
+    background-color: $red !important;
+}
+.bg-green {
+    background-color: $green !important;
+}
+.bg-yellow {
+    background-color: $yellow !important;
+}
+.bg-orange {
+    background-color: $orange !important;
+}
+.bg-black {
+    background-color: $black !important;
+}
+.bg-greyDark {
+    background-color: $greyDark !important;
+}
+.bg-greyLight {
+    background-color: $greyLight !important;
+}
+.bg-white {
+    background-color: $white !important;
+}
+
+.min-auto {
+   min-width: auto !important;
+}
+
+// FONT TYPES
 @font-face {
     font-family: 'Open Sans', sans-serif;
 }
