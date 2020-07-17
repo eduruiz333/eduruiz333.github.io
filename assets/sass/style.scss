@@ -103,41 +103,6 @@ span.feature-box.custom-feature-box:hover .custom-feature-box-icon{
     background: $cyan;
 }
 
-#header.header-floating-icons .header-nav-main nav > ul > li {
-
-    > a:after {
-        background: $greyDark;
-    }
-
-    > a.active {
-        i{
-            color: $white;
-        }
-        &:after{
-            background: $cyan;
-        }
-    }
-
-    > a > span,
-    > a > span:before {
-        background: $greyDark;
-        color: $white;
-    }
-
-    > a > i {
-        color: $white;
-    }
-}
-
-
-html .text-color-primary {
-    color: $cyan !important;
-}
-
-
-.custom-text-color-1 {
-    color: $white !important;
-}
 
 .btn-tertiary {
     background-color: $greyDark !important;
@@ -147,4 +112,5 @@ html .text-color-primary {
 .custom-social-icons li.social-icons-instagram a {
     background: #843534;
 }
+
 
