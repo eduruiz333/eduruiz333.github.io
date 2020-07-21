@@ -165,8 +165,15 @@ span.feature-box.custom-feature-box:hover .custom-feature-box-icon{
     }
 }
 
+a:active {
+    color: $cyan;
+}
+
 @media (max-width: 991px) {
 html .scroll-to-top.hidden-mobile {
-         display: block !important;
-     }
+        display: block !important;
+        color: $cyan;
+    }
 }
+
+
