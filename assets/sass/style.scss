@@ -174,9 +174,15 @@ html .scroll-to-top {
 }
 
 @media (max-width: 991px) {
-html .scroll-to-top.hidden-mobile {
-        display: block !important;
+
+    #header.header-floating-icons .header-nav-main nav > ul > li > a {
+        color: $black;
+        border-bottom-color: $greyLight;
     }
+
+    html .scroll-to-top.hidden-mobile {
+            display: block !important;
+        }
 }
 
 
