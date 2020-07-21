@@ -8,72 +8,81 @@
 
 
 // COLOR PALETTE
-$cyan: #5ac4f9;
-$red: #fc280f;
-$green: #85c54c;
-$yellow: #f4ba26;
-$orange: #f38b19;
-$black: #000000;
-$greyDark: #617695;
-$greyLight: #c6d7e0;
-$white: #ffffff;
+$cyan: #5ac4f9 !important;
+$red: #fc280f !important;
+$green: #85c54c !important;
+$yellow: #f4ba26 !important;
+$orange: #f38b19 !important;
+$black: #000000 !important;
+$greyDark: #617695 !important;
+$greyLight: #c6d7e0 !important;
+$white: #ffffff !important;
+
+$linkedin: #2867B2 !important;
+$linkedinHover: #658ab5 !important;
+
+$github: #333333 !important;
+$githubHover: #575757 !important;
+
+$instagram: #8a49a1 !important;
+$instagramHover: #c791db !important;
 
 // TEXT-COLORS
 .color-cyan {
-    color: $cyan !important;
+    color: $cyan;
 }
 .color-red {
-    color: $red !important;
+    color: $red;
 }
 .color-green {
-    color: $green !important;
+    color: $green;
 }
 .color-yellow {
-    color: $yellow !important;
+    color: $yellow;
 }
 .color-orange {
-    color: $orange !important;
+    color: $orange;
 }
 .color-black {
-    color: $black !important;
+    color: $black;
 }
 .color-greyDark {
-    color: $greyDark !important;
+    color: $greyDark;
 }
 .color-greyLight {
-    color: $greyLight !important;
+    color: $greyLight;
 }
 .color-white {
-    color: $white !important;
+    color: $white;
 }
 
 // BACKGROUND COLORS
 .bg-cyan {
-    background-color: $cyan !important;
+    background-color: $cyan;
 }
 .bg-red {
-    background-color: $red !important;
+    background-color: $red;
 }
 .bg-green {
-    background-color: $green !important;
+    background-color: $green;
 }
 .bg-yellow {
-    background-color: $yellow !important;
+    background-color: $yellow;
 }
 .bg-orange {
-    background-color: $orange !important;
+    background-color: $orange;
 }
 .bg-black {
-    background-color: $black !important;
+    background-color: $black;
 }
 .bg-greyDark {
-    background-color: $greyDark !important;
+    background-color: $greyDark;
 }
 .bg-greyLight {
-    background-color: $greyLight !important;
+    background-color: $greyLight;
 }
 .bg-white {
-    background-color: $white !important;
+    background-color: $white;
 }
 
 .min-auto {
@@ -113,4 +122,46 @@ span.feature-box.custom-feature-box:hover .custom-feature-box-icon{
     background: #843534;
 }
 
+.copyleft {
+    color: $greyDark;
+    span {
+        display:inline-block;
+        transform: rotate(180deg);
+    }
+}
+
+.custom-social-icons li.social-icons-linkedin a {
+    background: $linkedin;
+}
+.social-icons li:hover.social-icons-linkedin a {
+    background: $linkedinHover;
+}
+
+.custom-social-icons li.social-icons-git a {
+    background: $github;
+}
+.social-icons li:hover.social-icons-git a {
+    background: $githubHover;
+}
+
+.custom-social-icons li.social-icons-instagram a {
+    background: $instagram;
+}
+.social-icons li:hover.social-icons-instagram a {
+    background: $instagramHover;
+}
+
+#say-hello .custom-feature-box .custom-feature-box-icon {
+    min-width: 45px;
+    text-align: center;
+    border-color: $cyan;
+}
+
+#header.header-floating-icons .header-nav-main nav > ul > li:hover{
+    > a > span,
+    > a > span::before {
+        background-color: $cyan;
+        color: $white;
+    }
+}
 
