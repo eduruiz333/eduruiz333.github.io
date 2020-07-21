@@ -169,10 +169,13 @@ a:active {
     color: $cyan;
 }
 
+html .scroll-to-top {
+    color: $cyan;
+}
+
 @media (max-width: 991px) {
 html .scroll-to-top.hidden-mobile {
         display: block !important;
-        color: $cyan;
     }
 }
 
