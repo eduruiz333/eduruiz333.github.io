@@ -21,11 +21,14 @@ $white: #ffffff !important;
 $linkedin: #2867B2 !important;
 $linkedinHover: #658ab5 !important;
 
-$github: #333333 !important;
-$githubHover: #575757 !important;
+$github: #f05033 !important;
+$githubHover: #f07a65 !important;
 
-$instagram: #8a49a1 !important;
-$instagramHover: #c791db !important;
+$medium: #333333 !important;
+$mediumHover: #575757 !important;
+
+$instagram: #bc0000 !important;
+$instagramHover: #d66363 !important;
 
 // TEXT-COLORS
 .color-cyan {
@@ -142,6 +145,13 @@ span.feature-box.custom-feature-box:hover .custom-feature-box-icon{
 }
 .social-icons li:hover.social-icons-git a {
     background: $githubHover;
+}
+
+.custom-social-icons li.social-icons-medium a {
+    background: $medium;
+}
+.social-icons li:hover.social-icons-medium a {
+    background: $mediumHover;
 }
 
 .custom-social-icons li.social-icons-instagram a {
