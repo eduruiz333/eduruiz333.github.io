@@ -195,4 +195,10 @@ html .scroll-to-top {
         }
 }
 
+.min-width-max-content {
+    min-width: max-content !important;
+}
 
+a:hover {
+    color: $cyan;
+}
