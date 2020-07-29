@@ -1,4 +1,3 @@
-
 @font-face {
     font-family: 'ubuntu';
     src: url('https://eduruiz333.github.io/assets/fonts/Ubuntu/Ubuntu-Regular.ttf');
@@ -34,27 +33,35 @@ $instagramHover: #d66363 !important;
 .color-cyan {
     color: $cyan;
 }
+
 .color-red {
     color: $red;
 }
+
 .color-green {
     color: $green;
 }
+
 .color-yellow {
     color: $yellow;
 }
+
 .color-orange {
     color: $orange;
 }
+
 .color-black {
     color: $black;
 }
+
 .color-greyDark {
     color: $greyDark;
 }
+
 .color-greyLight {
     color: $greyLight;
 }
+
 .color-white {
     color: $white;
 }
@@ -63,40 +70,50 @@ $instagramHover: #d66363 !important;
 .bg-cyan {
     background-color: $cyan;
 }
+
 .bg-red {
     background-color: $red;
 }
+
 .bg-green {
     background-color: $green;
 }
+
 .bg-yellow {
     background-color: $yellow;
 }
+
 .bg-orange {
     background-color: $orange;
 }
+
 .bg-black {
     background-color: $black;
 }
+
 .bg-greyDark {
     background-color: $greyDark;
 }
+
 .bg-greyLight {
     background-color: $greyLight;
 }
+
 .bg-white {
     background-color: $white;
 }
 
 .min-auto {
-   min-width: auto !important;
+    min-width: auto !important;
 }
 
 // FONT TYPES
 @font-face {
     font-family: 'Open Sans', sans-serif;
 }
-$mainFont: 'Open Sans', sans-serif;
+
+$mainFont: 'Open Sans',
+sans-serif;
 
 body {
     font-family: ubuntu, Arial, Helvetica, Verdana;
@@ -107,7 +124,7 @@ body {
     border-color: $cyan;
 }
 
-span.feature-box.custom-feature-box:hover .custom-feature-box-icon{
+span.feature-box.custom-feature-box:hover .custom-feature-box-icon {
     color: $cyan;
 }
 
@@ -127,8 +144,9 @@ span.feature-box.custom-feature-box:hover .custom-feature-box-icon{
 
 .copyleft {
     color: $greyDark;
+
     span {
-        display:inline-block;
+        display: inline-block;
         transform: rotate(180deg);
     }
 }
@@ -136,6 +154,7 @@ span.feature-box.custom-feature-box:hover .custom-feature-box-icon{
 .custom-social-icons li.social-icons-linkedin a {
     background: $linkedin;
 }
+
 .social-icons li:hover.social-icons-linkedin a {
     background: $linkedinHover;
 }
@@ -143,6 +162,7 @@ span.feature-box.custom-feature-box:hover .custom-feature-box-icon{
 .custom-social-icons li.social-icons-git a {
     background: $github;
 }
+
 .social-icons li:hover.social-icons-git a {
     background: $githubHover;
 }
@@ -150,6 +170,7 @@ span.feature-box.custom-feature-box:hover .custom-feature-box-icon{
 .custom-social-icons li.social-icons-medium a {
     background: $medium;
 }
+
 .social-icons li:hover.social-icons-medium a {
     background: $mediumHover;
 }
@@ -157,6 +178,7 @@ span.feature-box.custom-feature-box:hover .custom-feature-box-icon{
 .custom-social-icons li.social-icons-instagram a {
     background: $instagram;
 }
+
 .social-icons li:hover.social-icons-instagram a {
     background: $instagramHover;
 }
@@ -167,9 +189,10 @@ span.feature-box.custom-feature-box:hover .custom-feature-box-icon{
     border-color: $cyan;
 }
 
-#header.header-floating-icons .header-nav-main nav > ul > li:hover{
-    > a > span,
-    > a > span::before {
+#header.header-floating-icons .header-nav-main nav>ul>li:hover {
+
+    >a>span,
+    >a>span::before {
         background-color: $cyan;
         color: $white;
     }
@@ -185,14 +208,14 @@ html .scroll-to-top {
 
 @media (max-width: 991px) {
 
-    #header.header-floating-icons .header-nav-main nav > ul > li > a {
+    #header.header-floating-icons .header-nav-main nav>ul>li>a {
         color: $black;
         border-bottom-color: $greyLight;
     }
 
     html .scroll-to-top.hidden-mobile {
-            display: block !important;
-        }
+        display: block !important;
+    }
 }
 
 .min-width-max-content {
