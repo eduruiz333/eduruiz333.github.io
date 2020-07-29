@@ -1,10 +1,12 @@
+
+// Font Types
 @font-face {
-    font-family: 'ubuntu';
-    src: url('https://eduruiz333.github.io/assets/fonts/Ubuntu/Ubuntu-Regular.ttf');
-    font-weight: normal;
-    font-style: normal;
+    src: local('/assets/fonts/ubuntu/Ubuntu-Regular.ttf'),
+    url('/assets/fonts/ubuntu/Ubuntu-Regular.ttf');
+    font-family: Ubuntu, sans-serif;
 }
 
+$mainFnt: Ubuntu, sans-serif;
 
 // COLOR PALETTE
 $cyan: #5ac4f9 !important;
@@ -107,17 +109,9 @@ $instagramHover: #d66363 !important;
     min-width: auto !important;
 }
 
-// FONT TYPES
-@font-face {
-    font-family: 'Open Sans', sans-serif;
-}
-
-$mainFont: 'Open Sans',
-sans-serif;
-
 body {
-    font-family: ubuntu, Arial, Helvetica, Verdana;
     background-color: $greyDark;
+    font-family: $mainFnt;
 }
 
 .custom-border {
@@ -189,10 +183,10 @@ span.feature-box.custom-feature-box:hover .custom-feature-box-icon {
     border-color: $cyan;
 }
 
-#header.header-floating-icons .header-nav-main nav>ul>li:hover {
+#header.header-floating-icons .header-nav-main nav > ul > li:hover {
 
-    >a>span,
-    >a>span::before {
+     a > span,
+    > a > span::before {
         background-color: $cyan;
         color: $white;
     }
@@ -208,7 +202,7 @@ html .scroll-to-top {
 
 @media (max-width: 991px) {
 
-    #header.header-floating-icons .header-nav-main nav>ul>li>a {
+    #header.header-floating-icons .header-nav-main nav > ul > li > a {
         color: $black;
         border-bottom-color: $greyLight;
     }
