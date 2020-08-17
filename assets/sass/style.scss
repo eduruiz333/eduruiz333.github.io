@@ -1,11 +1,11 @@
 
-// Font Types
 @font-face {
-    font-family: Ubuntu, sans-serif;
-}
-
-$mainFnt: Ubuntu, sans-serif;
-
+    font-family: mainFont;
+    src: url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+  }
+  
+  $mainFont: Ubuntu, sans-serif;
+  
 // COLOR PALETTE
 $cyan: #5ac4f9 !important;
 $red: #fc280f !important;
@@ -28,6 +28,11 @@ $mediumHover: #575757 !important;
 
 $instagram: #bc0000 !important;
 $instagramHover: #d66363 !important;
+
+body {
+    background-color: $greyDark;
+    font-family: $mainFont;
+}
 
 // TEXT-COLORS
 .color-cyan {
@@ -107,10 +112,6 @@ $instagramHover: #d66363 !important;
     min-width: auto !important;
 }
 
-body {
-    background-color: $greyDark;
-    font-family: $mainFnt;
-}
 
 .custom-border {
     border-color: $cyan;
