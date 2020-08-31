@@ -1,10 +1,6 @@
-<<<<<<< HEAD
-# Portfólio pessoal de Eduardo Ruiz - Desenvolvedor Front-end
+# PORTFÓLIO PESSOAL DE EDUARDO RUIZ - DESENVOLVEDOR FRONT-END
 
 ## Instalação do gulp
-=======
-## INSTALAÇAO DO GULP
->>>>>>> d32e280bf313db8ccbc564487aca103b924b3964
 
 Podemos instalar o Gulp usando npm. Adicionaremos um sinalizador -g para garantir que o Gulp esteja disponível globalmente para qualquer projeto:
 sudo npm install gulp-cli -g
@@ -26,14 +22,8 @@ Repare que na linha de comando acima instalamos também uma outro plugin chamado
 
 ### Configurando as Tarefas
 
-<<<<<<< HEAD
 Você precisará criar um arquivo dentro do diretório raiz do seu projeto chamado gulpfile.js e incluir todas as variáveis dos plugins que acabamos de instalar. Neste arquivo, vamos criar a tarefa chamada "sass".
 
 ### Exemplo de configuração do package.json
-=======
-Você precisará criar um arquivo dentro do diretório raiz do seu projeto chamado gulpfile.js e incluir todas as variáveis dos plugins que acabamos de instalar. Neste arquivo, vamos criar a tarefa chamada “sass”.
-
-### EXEMPLO DE CONFIGURAÇÃO DO PACKAGE.JSON
->>>>>>> d32e280bf313db8ccbc564487aca103b924b3964
 
 https://gist.github.com/eduruiz333/f2ba26fd412604696974f2b7f9283c36
